@@ -1,5 +1,5 @@
 import { config as loadDotenv } from "dotenv";
-import { AppConfig } from "./type.js";
+import { AppConfig } from "./types.js";
 
 loadDotenv();
 

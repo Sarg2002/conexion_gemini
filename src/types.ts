@@ -9,7 +9,7 @@ export interface ToolDefinition {
     description: string;
     input_schema:
     {
-        typ: "object"
+        type: "object"
         properties: Record<string, unknown>
         required?: string[];
     }

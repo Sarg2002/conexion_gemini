@@ -1,7 +1,7 @@
 import config from "../config.js";
 import { client as anthropicClient } from "../llm/anthropic-client.js";
 import { client as geminiClient } from "../llm/gemini-client.js";
-import { Message } from "../type.js";
+import { Message } from "../types.js";
 
 const CHARACTERS_PER_TOKEN = 4;
 export class Conversation {
